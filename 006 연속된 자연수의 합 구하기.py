@@ -21,4 +21,4 @@ while end_index != n:
         end_index +=1
         sum += end_index
 
-print(cnt)
+print(cnt) 
