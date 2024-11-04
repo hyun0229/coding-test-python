@@ -18,3 +18,4 @@ for i in range(q):
     x1,y1,x2,y2 = map(int,input().split())
     result = d_ls[x2][y2] - d_ls[x1-1][y2] - d_ls[x2][y1-1] + d_ls[x1-1][y1-1]
     print(result)
+
