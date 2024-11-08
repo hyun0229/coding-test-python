@@ -10,14 +10,6 @@ for i in range(1,n+1):
     for j in range(1,m+1):
         ls_mirro[i][j] = int(x[j-1])
 
-"""
-for i in ls_mirro:
-    for j in i:
-        print(j,end=" ")
-    print()
-
-"""
-
 def mirro_BFS(start_x,start_y):
     q_mirro = deque()
     q_mirro.append((start_x,start_y))
@@ -34,3 +26,12 @@ def mirro_BFS(start_x,start_y):
 
 mirro_BFS(1,1)
 print(ls_mirro[n][m])
+
+
+"""
+for i in ls_mirro:
+    for j in i:
+        print(j,end=" ")
+    print()
+
+"""
